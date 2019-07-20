@@ -1,0 +1,45 @@
+.header {
+    padding-top: 22px;
+    margin-bottom: 10px;
+    &-message {
+        padding: 20px 21px 21px 22px;
+        
+        border: 1px solid #D4D4D4;
+        margin-right: 15px;
+        border-radius: 6px;
+        position: relative;
+
+
+        &::after  {
+            content: '';
+            top: 17px;
+            right: 15px;
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #E42626;
+            border: 3px solid #ffffff;
+        }
+    }   
+
+    &-profile {
+        background-color: #fff;
+        padding: 10px;
+        padding-left: 17px;
+        min-width: 256px;
+        border-radius: 6px;
+        &-pic {
+            width: 45px;
+            height: 45px;
+            background-image: url('../img/profile-pic.png');
+            background-position: -25px center;
+        }
+
+        &-name {
+            margin-left: 16px;
+            margin-bottom: 0;
+        }
+    }
+    
+}

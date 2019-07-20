@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #7D7D7D;
+    background-color: #F8FAFF;
+}
+
+a {
+    color: #7D7D7D; 
+}
+
+
+@import "_sidebar";
+@import "_main-panel";
+@import "_header";
+@import "_table";
+@import "_modal";
+@import "_media";

@@ -1,0 +1,97 @@
+.modal {
+
+    &-dialog {
+        max-width: 616px;
+        margin-top: 152px;
+        margin-left: calc(17.77777777777778% + 59px);
+    }
+
+    &-content {
+        border: none;
+        box-shadow: 0 11px 21px rgba(40, 40, 40, 0.1);
+        border-radius: 5px;
+    }
+
+    &-header {
+        border-bottom: none;
+    }
+
+    &-footer {
+        border-top: none;
+    }
+
+    &-title {
+        margin-top: 4px;
+        margin-left: 12px;
+    }
+
+    &-body {
+        margin-left: 12px;
+
+        .form-row {
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .form-group {
+            label {
+                color: #343434;
+                margin-top: 4px;
+            }
+        }
+
+        .form-select {
+            min-width: 240px;
+            appearance: none;
+            background-image: url('../img/arrow-down.png');
+            background-repeat: no-repeat;
+            background-position: 214px center;
+        }
+
+        .form-text {
+            position: relative;
+            margin-bottom: 31px;
+
+            #inputDomain {
+                background-image: linear-gradient(to right, #fff 73.37%, #6666CC 26.63%);
+            }
+
+            &:after {
+                position: absolute;
+                content: '.work5.ru';
+                color: #ffffff;
+                top: 57%;
+                right: 48px;
+            }
+        }
+    }
+
+    &-warning {
+        img {
+            margin-right: 16px;
+        }
+
+        .p {
+            font-size: 12px;
+
+            a {
+                color: #6666CC;
+            }
+        }
+    }
+
+    &-footer {
+        margin-left: 12px;
+        justify-content: flex-start;
+        padding-top: .4rem;
+        padding-bottom: 2.2rem;
+        padding-left: 1.2rem;
+        .btn {
+            padding: 0.5rem 3.3rem;
+        }
+    }
+
+    .close {
+        font-size: 2.5rem;
+    }
+}

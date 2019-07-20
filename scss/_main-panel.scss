@@ -1,0 +1,65 @@
+.main-panel {
+    width: calc(100% - 17.77777777777778%);
+    padding-left: 59px;
+    padding-right: 16px;
+
+    .row {
+        margin: 0;
+    }
+
+    .menu-button {
+        width: 20px;
+        height: 20px;
+        margin-top: 20px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .breadcrumb {
+        background-color: transparent;
+        padding: 1.1rem 0;
+
+
+        &-item {
+            font-size: 12px;
+
+            &+.breadcrumb-item {
+                padding-left: .3rem;
+
+                &::before {
+                    content: url("../img/arrow-right.png");
+                    padding-right: .2rem;
+                }
+            }
+        }
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 0.125rem 1rem;
+       
+
+        &-success {
+            background-color: #55C97B;
+            border-color: #55C97B;
+        }
+
+        &-secondary {
+            background-color: #B1B1B1;
+            border-color: #B1B1B1;
+        }
+
+        span {
+            font-size: 20px;
+            font-weight: bold;
+            margin-right: 11px;
+        }
+    }
+
+    .title {
+        margin-top: 33px;
+        
+    }
+
+    
+}
